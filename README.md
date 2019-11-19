@@ -1,3 +1,3 @@
 # Electron frameless skeleton
 
-![](http://prntscr.com/pz4e6k)
+![](https://github.com/Nikeweke/electron-frameless-skeleton/blob/master/Screenshot_1.png)
