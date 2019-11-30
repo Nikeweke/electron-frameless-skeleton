@@ -57,7 +57,6 @@ function init() {
 	window.on('unmaximize', toggleMaxRestoreButtons);
 }
 
-
 // Starting init on page complete
 (function () {
 	// When document has loaded, initialise

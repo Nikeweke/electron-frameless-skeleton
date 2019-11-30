@@ -1,6 +1,8 @@
 <html>
 <head>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <script src="../assets/js/vue.js"></script>
 </head>
 
 <body>
@@ -29,12 +31,18 @@
     </header>
   
     <div id="main">
-      <h1>Hello World!</h1>
+      <h1>Hello World! (Vue works here {{ 2+2 }})</h1>
       <p>Lorem ipsum dolor sit amet...</p>
     </div>
 </body>
 
-<script src=./core.js></script>
+<script>
+require('./window')
+
+new Vue({
+  el: '#main'
+})
+</script>
 
 
 </html>
